@@ -6,10 +6,10 @@
   </head>
   <body style="margin: 0; overflow: hidden;">
     <a-scene embedded arjs>
-      <!-- Marcador Hiro -->
+      <!-- Marcador Hiro (16x16 cm) -->
       <a-marker preset="hiro">
-        <!-- Modelo 3D ajustado para llenar todo el marcador -->
-        <a-entity gltf-model="diablo.glb" scale="3 3 3" position="0 0 0" rotation="0 180 0"></a-entity>
+        <!-- Modelo 3D ajustado a la escala real del marcador -->
+        <a-entity gltf-model="diablo.glb" scale="2.2 2.2 2.2" position="0 0.3 0" rotation="0 180 0"></a-entity>
       </a-marker>
 
       <!-- Cámara -->
